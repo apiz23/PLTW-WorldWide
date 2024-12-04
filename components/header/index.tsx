@@ -25,7 +25,12 @@ export default function Home() {
 		{
 			text: "Buy",
 			href:
-				"https://docs.google.com/forms/d/e/1FAIpQLSde44xXB1OSBiUkskWN7aib_gESVTCsuNvSI3dr8Tn7AArrjg/viewform?usp=sf_link",
+				"https://speedcubeshop.com/collections/smart-cubes/products/gan-356-i3-3x3-bluetooth-smart-cube?variant=39660253577329",
+		},
+		{
+			text: "Store",
+			href:
+				"https://speedcubeshop.com/collections/smart-cubes/products/gan-356-i3-3x3-bluetooth-smart-cube?variant=39660253577329",
 		},
 	];
 	return (
@@ -34,7 +39,7 @@ export default function Home() {
 				<h1
 					className={` ${lobster.className} scroll-m-20 text-[50px] md:text-[100px] font-medium text-center tracking-wider`}
 				>
-					PLTW
+					GAN CUBE
 				</h1>
 			</div>
 			<Sheet>
@@ -76,42 +81,7 @@ export default function Home() {
 										<ChevronLeft className="w-8 h-8 ms-3 transition-transform transform group-hover:-translate-x-2 group-hover:animate-in" />
 									</Link>
 								))}
-
-								<Popover>
-									<PopoverTrigger>
-										<button className="font-extrabold text-3xl inline-flex group float-left">
-											<span className="group-hover:text-blue-800">Contact</span>
-											<ChevronLeft className="w-8 h-8 ms-3 transition-transform transform group-hover:-translate-x-2 group-hover:animate-in" />
-										</button>
-									</PopoverTrigger>
-									<PopoverContent>
-										<div className="grid grid-cols-2 gap-4">
-											<Link
-												href="https://wa.link/nrwpef"
-												target="_blank"
-												className="flex flex-col items-center"
-											>
-												<Avatar>
-													<AvatarImage src="/images/pp.svg" />
-													<AvatarFallback>ZAI</AvatarFallback>
-												</Avatar>
-												<label>Ruzainish</label>
-											</Link>
-											<Link
-												href="https://wa.link/3tnaky"
-												target="_blank"
-												className="flex flex-col items-center"
-											>
-												<Avatar>
-													<AvatarImage src="/images/pp.svg" />
-													<AvatarFallback>AIYZ</AvatarFallback>
-												</Avatar>
-												<label>Fariez</label>
-											</Link>
-										</div>
-									</PopoverContent>
-								</Popover>
-							</div>
+								</div>
 						</div>
 					</motion.div>
 				</SheetContent>

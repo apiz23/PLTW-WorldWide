@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/table";
 import Lenis from "@studio-freight/lenis";
 import Section3 from "@/components/section3";
-import Jersey from "@/components/jersey";
+import Jersey from "@/components/Rubik";
 import Contact from "@/components/contact";
 
 export default function Home() {
@@ -83,7 +83,7 @@ export default function Home() {
 						<img
 							src="/images/pic1.png"
 							alt="background"
-							className="md:w-full md:h-full md:px-0 px-5 md:pt-20 pt-32"
+							className="md:w-full md:h-full md:px-0 px-5 md:pt-20 pt-32"		
 						/>
 					</div>
 					<div className="absolute" style={{ top: `calc(100vh - 400px)` }}>
@@ -92,18 +92,18 @@ export default function Home() {
 								ref={firstText}
 								className="relative text-[120px] md:text-[230px] m-0 font-semibold pr-12 text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-black to-blue-500 animate-gradient"
 							>
-								PLTW WorldWide -
+								GAN356 I3 3x3 - 
 							</p>
 							<p
 								ref={secondText}
 								className="absolute text-[120px] md:text-[230px] left-full top-0 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-black to-blue-500 animate-gradient"
 							>
-								PLTW WorldWide -
+								GAN356 I3 3x3 - 
 							</p>
 						</div>
 					</div>
 				</main>
-				<div
+				{/* <div
 					ref={description}
 					className={`${styles.description} min-h-screen bg-blue-900 py-20 p-10 md:pt-52 text-white mt-50px md:mt-[300px]`}
 				>
@@ -168,7 +168,7 @@ export default function Home() {
 							</Table>
 						</motion.p>
 					</div>
-				</div>
+				</div> */}
 				<Section3 />
 				<Jersey />
 				<Contact />

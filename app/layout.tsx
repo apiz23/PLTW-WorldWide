@@ -9,14 +9,20 @@ import {
 	Pacifico,
 	Roboto,
 	Montserrat,
+	Poppins,
 } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { ThemeProvider } from "@/components/theme-provider";
 import Headers from "@/components/header";
 import { Toaster } from "sonner";
 
 const fontSans = FontSans({
+	subsets: ["latin"],
+	variable: "--font-sans",
+});
+
+const Poppin = Poppins({
+	weight: "400",
 	subsets: ["latin"],
 	variable: "--font-sans",
 });
@@ -70,11 +76,11 @@ const MontserratFont = Montserrat({
 });
 
 export const metadata: Metadata = {
-	title: "PLTW. WorldWide",
-	description: "Merch",
+	title: "GAN I3 Smart Cube",
+	description: "Gan Smart Rubik Cube",
 	icons: [
-		{ rel: "icon", url: "/images/pltw.png" },
-		{ rel: "apple", url: "/images/pltw.png" },
+		{ rel: "icon", url: "/images/favicon.png" },
+		{ rel: "apple", url: "/images/favicon.png" },
 	],
 };
 
@@ -89,7 +95,7 @@ export default function RootLayout({
 			<body
 				className={cn(
 					"min-h-screen bg-background font-sans antialiased",
-					RobotoFont.variable
+					Poppin.variable
 				)}
 			>
 				<Headers />

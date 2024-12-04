@@ -44,13 +44,13 @@ export default function Index() {
 			<div className="bg-white dark:bg-white">
 				<div
 					className="flex items-center flex-col mt-[200px] relative bg-cover bg-no-repeat backdrop-blur-5xl bg-opacity-75"
-					style={{ backgroundImage: "url('/images/bgSection3.jpg')" }}
+					style={{ backgroundImage: "url('/images/bgSection3.2.png')" }}
 				>
 					<div className="bg-slate-400 bg-opacity-20 mb-52 px-5 md:px-0 mt-28 md:mt-10">
 						<div ref={body} className="mb-[100px] relative text-4xl mt-20">
 							<div ref={textRef} className="col-span-5 mt-10">
 								<p className="md:ms-32 ms-10 md:m-0 font-bold text-5xl md:text-8xl">
-									Excited to wear?
+									Excited to Play?
 								</p>
 								<h4 className="scroll-m-20 md:ms-32 ms-10 mt-10 text-xl font-semibold tracking-tight">
 									Hurry Up & Grab it
@@ -66,7 +66,7 @@ export default function Index() {
 						>
 							<div ref={textRef2} className="col-span-4 mt-10">
 								<p className="ms-10 md:m-0 font-bold text-5xl md:text-8xl">
-									Colour - CRYSTAL WHITE
+									Version - Stickerless
 								</p>
 								<h4 className="scroll-m-20 md:ms-0 ms-10 mt-10 text-xl font-semibold tracking-tight">
 									Short Sleeve

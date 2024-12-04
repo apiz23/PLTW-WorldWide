@@ -30,9 +30,9 @@ export default function Index() {
 		<>
 			<div className="min-h-screen bg-black">
 				<div className=" text-white mx-auto p-5 md:px-48 md:pt-52 md:pb-20">
-					<div
-						// href="https://docs.google.com/forms/d/e/1FAIpQLSde44xXB1OSBiUkskWN7aib_gESVTCsuNvSI3dr8Tn7AArrjg/viewform?usp=sf_link"
-						// target="_blank"
+					<Link
+						href="https://speedcubeshop.com/collections/smart-cubes/products/gan-356-i3-3x3-bluetooth-smart-cube?variant=39660253577329"
+						target="_blank"
 						className="flex md:justify-start justify-center hover:text-blue-200 max-w-4xl  md:mt-0 mt-20"
 						onClick={handleClick}
 					>
@@ -42,35 +42,25 @@ export default function Index() {
 						<h1 className="scroll-m-20 md:mt-16 md:ms-10 text-4xl text-center font-extrabold tracking-wider lg:text-7xl">
 							Click here to BUY
 						</h1>
-					</div>
-					<div className="flex justify-center md:justify-end md:m-0 m-10">
-						<Link
-							href="https://www.instagram.com/p/C5VckRoB001/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-							target="_blank"
-						>
-							<Instagram className="md:h-20 h-10 md:w-20 w-10  text-white hover:text-pink-700" />
-						</Link>
-					</div>
+					</Link>
 				</div>
 				<Separator className="w-4/5 mx-auto" />
 				<div className=" text-white mx-auto md:px-52">
 					<h2 className="scroll-m-20 text-center py-6 md:py-16 text-5xl font-semibold tracking-tight first:mt-0">
-						Contacts
+						Available Store
 					</h2>
-					<div className="grid grid-cols-6 md:grid-cols-12 my-10">
-						<div className="col-span-6 text-center p-6">
-							<Link href="https://wa.link/nrwpef" target="_blank">
-								<Button className="w-48 md:w-96 py-10 md:p-14 rounded-full text-md md:text-2xl hover:bg-blue-800">
-									Ruzainish aka Zai
-								</Button>
-							</Link>
+					<div className="max-w-3xl mx-auto gap-4 grid grid-cols-6 md:grid-cols-12 my-10">
+						<div className="col-span-3">
+							<img src="/images/ganLogo.png" alt="" className="w-[20vw] bg-white bg-opacity-90 p-4 rounded-lg" />
 						</div>
-						<div className="col-span-6 text-center p-6">
-							<Link href="https://wa.link/3tnaky" target="_blank">
-								<Button className="w-48 md:w-96 py-10 md:p-14 rounded-full text-md md:text-2xl hover:bg-red-800">
-									Fariez aka Aryz
-								</Button>
-							</Link>
+						<div className="col-span-3">
+							<img src="/images/speedCube.png" alt="" className="w-[20vw] bg-white bg-opacity-90 p-4 rounded-lg" />
+						</div>
+						<div className="col-span-3">
+							<img src="/images/jpearly.png" alt="" className="w-[20vw] bg-white bg-opacity-90 p-4 rounded-lg" />
+						</div>
+						<div className="col-span-3">
+							<img src="/images/cubicle.png" alt="" className="w-[20vw] bg-white bg-opacity-90 p-4 rounded-lg" />
 						</div>
 					</div>
 				</div>
